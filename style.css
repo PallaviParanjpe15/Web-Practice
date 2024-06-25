@@ -1,0 +1,120 @@
+.nav{
+    background-color: rgb(15, 20, 37);
+    height: 50px;
+    display: flex;
+    color: #ffffff; 
+    justify-content:center ;
+    align-items: center; 
+    /* width: 500px; */
+    /* padding: 0%; */
+    /* position: absolute; */
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    /* background-color: black; */
+}
+.intro{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#photu{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+body{
+    background-color:rgb(255, 255, 255) ;
+    width: 1500px;
+}
+.me{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#bar{
+    width: 350px;
+    height: 20px;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+.project1{
+    padding-bottom: 60px;
+}
+#photo1{
+    height: 500px;
+    width: 500px;
+}
+/* #photo3{
+    margin-top: 60px;
+    height: 500px;
+    width: 500px;
+} */
+#project3{
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 50px; */
+    margin-top: 60px;
+}
+#contactme{
+    margin-bottom: 20px;
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    flex-direction: column;
+    width: 400px;
+}
+.send{
+    margin-bottom: 50px;
+}
+#textarea{
+    height: 60px;
+}
+footer{
+    display: flex;
+    height: 50px;
+    background-color: rgb(11, 11, 27);
+    color: white;
+    justify-content: center;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    margin-right: -8px;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+}
+.lang{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:480px)
+{
+    .nav{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
